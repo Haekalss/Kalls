@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <nav class="bg-gray-800">
+      <div class="px-2 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="relative flex items-center justify-between h-16">
+          <div class="flex items-center px-2 lg:px-0">
+            <div class="flex-shrink-0">
+              <a class="text-white hover;text-gray-400 text-2xl">Zawarudo</a>
+            </div>
+            <div class="hidden lg:block lg:ml-6">
+              <div class="flex space-x-2">
+                <button onclick="paragraf0()" class="text-gray-300 hover:text-gray-400 px-6"
+                  >HOME</a
+                >
+                <a href="#" class="text-gray-300 hover:text-gray-400 px-6"
+                  >WANITA</a
+                >
+                <a href="#" class="text-gray-300 hover:text-gray-400 mr-0">PRIA</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </head>
+  <body>
+    <nav class="bg-gray-300">
+      <div class="px-2 mx-auto max-w-2xl sm:px-6 lg:px-8">
+        <div class="relative flex items-center justify-between h-10">
+          <div class="flex items-center px-2 lg:px-0">
+            <div class="hidden lg:block lg:ml-6">
+              <div class="flex space-x-4">
+                <button id="btn" onclick="paragraf1()" class="text-gray-700 hover:text-gray-400 px-6"
+                  >SNEAKERS</a
+                >
+                <button id="btn" onclick="paragraf2()" class="text-gray-700 hover:text-gray-400 px-6"
+                  >LOAFERS</a
+                >
+                <button id="btn" onclick="paragraf3()" class="text-gray-700 hover:text-gray-400 px-6"
+                  >SLIP ON</a
+                >
+                <button id="btn" onclick="paragraf4()" class="text-gray-700 hover:text-gray-400 px-6"
+                  >BOOTS</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="px-3 py-6 mx-auto max-w-5xl sm:px-6 lg:px-8 grid grid-cols-4 gap-8">
+      <div img class="box-border h-62 w-62 p-4 bg-cover border-4 text-center">
+        <h2>Sneakers</h2>
+        <img src="download.jpeg" alt="" />
+      </div>
+      <div class="box-border h-62 w-62 p-4 border-4 text-center">
+        <h2>Loafers</h2>
+        <img src="Loafers.png" alt="" />
+      </div>
+      <div class="box-border h-62 w-62 p-4 border-4 text-center">
+        <h2>Slip On</h2>
+        <img src="slipon.png" alt="" />
+      </div>
+      <div class="box-border h-62 w-62 p-4 border-4 text-center">
+        <h2>Boots</h2>
+        <img src="boots.png" alt="" />
+      </div>
+    </div>
+    <div class="mt-9">
+    <p id="sepatu" class="text-center pl-7 pr-7"></p>
+    </div>
+  </body>
+</html>
