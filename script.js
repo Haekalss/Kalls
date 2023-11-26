@@ -1,8 +1,8 @@
 function paragraf0() {
-  document.getElementById("image1").src = "nb.png"
-  document.getElementById("image2").src = "converse.png"
-  document.getElementById("image3").src = "adidas.png"
-  document.getElementById("image4").src = "nike2.png"
+  document.getElementById("image1").src = "nb.png";
+  document.getElementById("image2").src = "converse.png";
+  document.getElementById("image3").src = "adidas.png";
+  document.getElementById("image4").src = "nike2.png";
   document.getElementById("image5").src = ""
   document.getElementById("image6").src = ""
   document.getElementById("image7").src = ""
