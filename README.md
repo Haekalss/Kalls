@@ -1,28 +1,52 @@
 ![Disini menampikan sebuah microfrontend e-commerce sederhana](Gambar/Screenshot/Screenshot(29).png) 
-Dengan menekan Button Sneakers, Loafers, Slip on, dan Boots
+Dengan menekan Button NEW BALANCE, CONVERSE, ADIDAS, dan NIKE
 (Gambar/Screenshot/Screenshot(30).png)
-Muncul perubahan paragraf menggunakan Javascript seperti gambar di atas
+Merubah image menggunakan Javascript seperti gambar di atas
 ```
-function paragraf1() {
-  document.getElementById("sepatu").innerHTML =
-    "Sneakers adalah sepatu yang biasanya dirancang untuk olahraga atau bentuk kegiatan fisik lainnya selain juga banyak dipakai untuk kegiatan sehari-hari. Sepatu kets mula-mula dipopulerisasikan oleh perusahaan-perusahaan seperti Converse, Nike, dan Spalding pada pertengahan abad ke-20.";
+function paragraf1() {   
+  document.getElementById("image1").src = "nb1.png"
+  document.getElementById("image2").src = "nb2.png"
+  document.getElementById("image3").src = "nb3.png"
+  document.getElementById("image4").src = "nb4.png"
+  document.getElementById("image5").src = "nb5.png"
+  document.getElementById("image6").src = "nb6.png"
+  document.getElementById("image7").src = "nb7.png"
+  document.getElementById("image8").src = "nb8.png"
 }
 function paragraf2() {
-  document.getElementById("sepatu").innerHTML =
-    "Loafers merupakan sepatu slip on yang bisa digunakan untuk gaya formal, sporty, atau casual. Sepatu Loafers Pria biasanya tersedia dalam berbagai desain sehingga bisa dipilih sesuai selera.";
+  document.getElementById("image1").src = "cv1.png"
+  document.getElementById("image2").src = "cv2.png"
+  document.getElementById("image3").src = "cv3.png"
+  document.getElementById("image4").src = "cv4.png"
+  document.getElementById("image5").src = "cv5.png"
+  document.getElementById("image6").src = "cv6.png"
+  document.getElementById("image7").src = "cv7.png"
+  document.getElementById("image8").src = "cv8.png"
 }
 function paragraf3() {
-  document.getElementById("sepatu").innerHTML =
-    "Slip on adalah jenis sepatu dengan tampilan yang lebih minimalis tanpa adanya tali sebagai pengikat.";
+  document.getElementById("image1").src = "ad1.png"
+  document.getElementById("image2").src = "ad2.png"
+  document.getElementById("image3").src = "ad3.png"
+  document.getElementById("image4").src = "ad4.png"
+  document.getElementById("image5").src = "ad5.png"
+  document.getElementById("image6").src = "ad6.png"
+  document.getElementById("image7").src = "ad7.png"
+  document.getElementById("image8").src = "ad8.png"
 }
 function paragraf4() {
-  document.getElementById("sepatu").innerHTML =
-    "Sepatu bot adalah sejenis alas kaki. Mayoritas sepatu bot menutupi bagian telapak kaki sampai ke bagian mata kaki. Sebagian sepatu bot juga menutup bagian betis dan bahkan ada juga yang sampai ke pinggang. Pada zaman dahulu sepatu bot biasanya terbuat dari kulit dan karet.";
+  document.getElementById("image1").src = "nk1.png"
+  document.getElementById("image2").src = "nk2.png"
+  document.getElementById("image3").src = "nk3.png"
+  document.getElementById("image4").src = "nk4.png"
+  document.getElementById("image5").src = "nk5.png"
+  document.getElementById("image6").src = "nk6.png"
+  document.getElementById("image7").src = "nk7.png"
+  document.getElementById("image8").src = "nk8.png"
 }
 ```
-Selanjutnya dengan menekan button Home kembali lagi ke awal paragraf hilang
-(Gambar/Screenshot/Screenshot(31).png)
+dengan menekan Button Wanita muncul alert 
 ```
-function paragraf0() {
-  document.getElementById("sepatu").innerHTML = "";
-}```
+function showalert() {
+  alert("Maaf belum tersedia");
+}
+```
