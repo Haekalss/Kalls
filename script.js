@@ -3,10 +3,10 @@ function paragraf0() {
   document.getElementById("image2").src = "converse.png";
   document.getElementById("image3").src = "adidas.png";
   document.getElementById("image4").src = "nike2.png";
-  document.getElementById("image5").src = ""
-  document.getElementById("image6").src = ""
-  document.getElementById("image7").src = ""
-  document.getElementById("image8").src = ""
+  document.getElementById("image5").src = "";
+  document.getElementById("image6").src = "";
+  document.getElementById("image7").src = "";
+  document.getElementById("image8").src = "";
 }
 
 function paragraf1() {   
