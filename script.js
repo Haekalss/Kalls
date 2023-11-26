@@ -4,6 +4,8 @@ function paragraf0() {
 function paragraf1() {
   document.getElementById("sepatu").innerHTML =
     "Sneakers adalah sepatu yang biasanya dirancang untuk olahraga atau bentuk kegiatan fisik lainnya selain juga banyak dipakai untuk kegiatan sehari-hari. Sepatu kets mula-mula dipopulerisasikan oleh perusahaan-perusahaan seperti Converse, Nike, dan Spalding pada pertengahan abad ke-20.";
+  var imgElement = document.getElementById("sepatu");
+  imgElement.src = "p1.png";
 }
 function paragraf2() {
   document.getElementById("sepatu").innerHTML =
