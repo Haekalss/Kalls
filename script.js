@@ -22,6 +22,5 @@ function showalert() {
 }
 
 function berubah() {
-  var imgElement = document.getElementById('image1').innerHTML;
-  imgElement.src = "p1.png";
+  document.getElementById("image1").src = "p1.png";
 }
