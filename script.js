@@ -17,6 +17,10 @@ function paragraf4() {
   document.getElementById("sepatu").innerHTML =
     "Sepatu bot adalah sejenis alas kaki. Mayoritas sepatu bot menutupi bagian telapak kaki sampai ke bagian mata kaki. Sebagian sepatu bot juga menutup bagian betis dan bahkan ada juga yang sampai ke pinggang. Pada zaman dahulu sepatu bot biasanya terbuat dari kulit dan karet.";
 }
+function showalert() {
+  alert("Maaf belum tersedia");
+}
+
 function berubah() {
   var imgElement = document.getElementById('image1').innerHTML;
   imgElement.src = "p1.png";
