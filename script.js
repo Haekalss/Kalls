@@ -4,8 +4,6 @@ function paragraf0() {
 function paragraf1() {
   document.getElementById("sepatu").innerHTML =
     "Sneakers adalah sepatu yang biasanya dirancang untuk olahraga atau bentuk kegiatan fisik lainnya selain juga banyak dipakai untuk kegiatan sehari-hari. Sepatu kets mula-mula dipopulerisasikan oleh perusahaan-perusahaan seperti Converse, Nike, dan Spalding pada pertengahan abad ke-20.";
-  var imgElement = document.getElementById("sepatu");
-  imgElement.src = "p1.png";
 }
 function paragraf2() {
   document.getElementById("sepatu").innerHTML =
@@ -18,4 +16,8 @@ function paragraf3() {
 function paragraf4() {
   document.getElementById("sepatu").innerHTML =
     "Sepatu bot adalah sejenis alas kaki. Mayoritas sepatu bot menutupi bagian telapak kaki sampai ke bagian mata kaki. Sebagian sepatu bot juga menutup bagian betis dan bahkan ada juga yang sampai ke pinggang. Pada zaman dahulu sepatu bot biasanya terbuat dari kulit dan karet.";
+}
+function paragraf1() {
+  var imgElement = document.getElementById("image1");
+  imgElement.src = "p1.png";
 }
