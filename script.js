@@ -1,6 +1,14 @@
 function paragraf0() {
-  document.getElementById("sepatu").src = "";
+  document.getElementById("image1").src = "nb.png"
+  document.getElementById("image2").src = "converse.png"
+  document.getElementById("image3").src = "adidas.png"
+  document.getElementById("image4").src = "nike.png"
+  document.getElementById("image5").src = ""
+  document.getElementById("image6").src = ""
+  document.getElementById("image7").src = ""
+  document.getElementById("image8").src = ""
 }
+
 function paragraf1() {   
   document.getElementById("image1").src = "nb1.png"
   document.getElementById("image2").src = "nb2.png"
