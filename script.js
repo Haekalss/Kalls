@@ -54,3 +54,7 @@ function showalert() {
   alert("Maaf belum tersedia");
 }
 
+function paragraf1() {
+  alert("New Balance Athletics, Inc., atau yang biasa dikenal dengan nama New Balance, adalah sebuah perusahaan multinasional Amerika yang berpusat di Boston, Massachusetts");
+}
+
