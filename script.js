@@ -10,7 +10,10 @@ function paragraf0() {
 }
 
 function paragraf1() {   
-  document.getElementById("image1").src = "nb1.png"
+  var image = document.getElementById("image1").src = "nb1.png"
+  image.addEventListener('click', function() {
+    alert('new balance');});
+    
   document.getElementById("image2").src = "nb2.png"
   document.getElementById("image3").src = "nb3.png"
   document.getElementById("image4").src = "nb4.png"
@@ -52,8 +55,4 @@ function paragraf4() {
 
 function showalert() {
   alert("Maaf belum tersedia");
-}
-
-function alertNB() {
-  alert("lorem ipsum");
 }
