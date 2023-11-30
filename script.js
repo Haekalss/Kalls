@@ -53,3 +53,7 @@ function paragraf4() {
 function showalert() {
   alert("Maaf belum tersedia");
 }
+
+function alertNB() {
+  alert("lorem ipsum");
+}
