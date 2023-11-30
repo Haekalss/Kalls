@@ -11,9 +11,6 @@ function paragraf0() {
 
 function paragraf1() {   
   document.getElementById("image1").src = "nb1.png"
-  function alertshow(){
-    alert('sepatu nb')
-  }
   document.getElementById("image2").src = "nb2.png"
   document.getElementById("image3").src = "nb3.png"
   document.getElementById("image4").src = "nb4.png"
