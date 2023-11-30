@@ -58,3 +58,14 @@ function paragraf1() {
   alert("New Balance Athletics, Inc., atau yang biasa dikenal dengan nama New Balance, adalah sebuah perusahaan multinasional Amerika yang berpusat di Boston, Massachusetts");
 }
 
+function paragraf2() {
+  alert("Converse adalah sebuah perusahaan sepatu asal Amerika dengan hasil produksi yang terutama terdiri dari alas kaki berjenis olahraga dan brand Supreme gaya hidup. Perusahaan telah berdiri sejak tahun 1908 dan, pada tahun 2003, dibeli senilai $ 305.000.000 sebagai anak perusahaan dari Nike, Inc.")
+}
+
+function paragraf3() {
+  alert("Adidas AG adalah sebuah perusahaan sepatu Jerman. Perusahaan ini dinamakan atas pendirinya, Adolf Dassler, yang mulai memproduksi sepatu pada 1920-an di Herzogenaurach dekat Nuremberg")
+}
+
+function paragraf4() {
+  alert("Nike, Inc. adalah salah satu perusahaan sepatu, pakaian dan alat-alat olahraga Amerika Serikat yang merupakan salah satu yang terbesar di dunia.")
+}
