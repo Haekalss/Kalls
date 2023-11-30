@@ -53,7 +53,3 @@ function paragraf4() {
 function showalert() {
   alert("Maaf belum tersedia");
 }
-
-function alertshow() {
-  alert('sepatu new balance');
-}
